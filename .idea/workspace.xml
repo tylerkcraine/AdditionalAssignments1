@@ -4,17 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bef6db34-fe1a-4865-b979-c64e582389b7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExtraAssignment1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ComparatorExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EnumExercise/Grade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LibraryObjectExercise/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LibraryObjectExercise/StudentRegistration.java" afterDir="false" />
+    <list default="true" id="bef6db34-fe1a-4865-b979-c64e582389b7" name="Changes" comment="initial commit">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DefaultInterfaces/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PasswordGenerator/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ComparatorExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ComparatorExample/ComparatorExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DefaultInterfaces/Chargeable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DefaultInterfaces/Chargeable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DefaultInterfaces/PrivilegedCustomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DefaultInterfaces/PrivilegedCustomer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +23,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -32,6 +31,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "tylerkcraine"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/tylerkcraine/AdditionalAssignments1.git",
+    "accountId": "c28886b0-3645-4ae7-a879-e9bfb298fc2a"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 6
 }]]></component>
@@ -44,18 +55,34 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.ComparatorExample.executor": "Run",
+    "Application.DefaultInterfaces.Main.executor": "Run",
     "Application.LibraryObjectExercise.Main.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.PasswordGenerator.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "C:/Users/tyler.craine/OneDrive - Infosys Limited/Desktop/ExtraAssignment1/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.LibraryObjectExercise.Main">
+  <component name="RunManager" selected="Application.PasswordGenerator.Main">
     <configuration name="ComparatorExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ComparatorExample" />
+      <option name="MAIN_CLASS_NAME" value="ComparatorExample.ComparatorExample" />
       <module name="ExtraAssignment1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DefaultInterfaces.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DefaultInterfaces.Main" />
+      <module name="ExtraAssignment1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DefaultInterfaces.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -86,8 +113,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PasswordGenerator.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PasswordGenerator.Main" />
+      <module name="ExtraAssignment1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PasswordGenerator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PasswordGenerator.Main" />
+        <item itemvalue="Application.DefaultInterfaces.Main" />
         <item itemvalue="Application.LibraryObjectExercise.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.ComparatorExample" />
@@ -103,13 +145,26 @@
       <option name="presentableId" value="Default" />
       <updated>1745502379945</updated>
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <option name="closed" value="true" />
+      <created>1745505902207</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1745505902207</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ComparatorExample.java</url>
+          <url>file://$PROJECT_DIR$/src/ComparatorExample/ComparatorExample.java</url>
           <line>5</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
